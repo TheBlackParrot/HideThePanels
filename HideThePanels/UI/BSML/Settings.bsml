@@ -1,0 +1,15 @@
+﻿<settings-container xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+                    xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+    <toggle-setting text="Music Pack Promo Banner" value="MusicPackPromoBanner" apply-on-change="true"/>
+
+    <horizontal><text text="-----" font-size="2" color="#00000000"/></horizontal>
+
+    <toggle-setting text="Online Button" value="OnlineButton" apply-on-change="true"/>
+    <toggle-setting text="Campaign Button" value="CampaignButton" apply-on-change="true"/>
+    <toggle-setting text="Party Button" value="PartyButton" apply-on-change="true"/>
+
+    <horizontal><text text="-----" font-size="2" color="#00000000"/></horizontal>
+
+    <toggle-setting text="Help Button" value="HelpButton" apply-on-change="true"/>
+    <toggle-setting text="Beatmap Editor Button" value="EditorButton" apply-on-change="true"/>
+</settings-container>
