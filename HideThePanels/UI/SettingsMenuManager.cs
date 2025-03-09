@@ -12,12 +12,20 @@ internal class SettingsMenuManager : IInitializable, IDisposable
     
     public void Initialize()
     {
+#if V1_40_3
         BeatSaberMarkupLanguage.Settings.BSMLSettings.Instance.AddSettingsMenu("HideThePanels", "HideThePanels.UI.BSML.Settings.bsml", this);
+#else
+        BeatSaberMarkupLanguage.Settings.BSMLSettings.instance?.AddSettingsMenu("HideThePanels", "HideThePanels.UI.BSML.Settings.bsml", this);
+#endif
     }
 
     public void Dispose()
     {
+#if V1_40_3
         BeatSaberMarkupLanguage.Settings.BSMLSettings.Instance?.RemoveSettingsMenu(this);
+#else
+        BeatSaberMarkupLanguage.Settings.BSMLSettings.instance?.RemoveSettingsMenu(this);
+#endif
     }
 
     protected bool MusicPackPromoBanner

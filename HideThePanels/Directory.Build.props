@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- This file contains project properties used by the build. -->
 <Project>
-
   <!-- Plugin Metadata -->
   <PropertyGroup>
     <PluginId>HideThePanels</PluginId>
     <PluginName>HideThePanels</PluginName>
     <Authors>TheBlackParrot</Authors>
     <Version>0.0.0</Version>
-    <GameVersion>1.40.3</GameVersion>
     <Description>Hides unwanted panels in Beat Saber's Main Menu</Description>
     <!--<PluginIcon></PluginIcon>-->
     <!--<ProjectSource></ProjectSource>-->
